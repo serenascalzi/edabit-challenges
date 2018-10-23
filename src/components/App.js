@@ -15,7 +15,8 @@ class App extends Component {
 			<Provider store={store}>
 				<div>
 					<ul>
-						<li>How Edabit Works</li>
+						<li>10.21.18: How Edabit Works</li>
+						<li>10.22.18: Return the Sum of Two Numbers</li>
 					</ul>
 				</div>
 			</Provider>

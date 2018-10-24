@@ -10,3 +10,24 @@ html {
 *, *:before, *:after {
 	box-sizing:inherit;
 }
+
+#container {
+	margin:1em auto;
+	width:90%;
+	font-family:sans-serif;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3 {
+	padding:1em 0;
+	font-size:1.25em;
+}
+
+ol > li {
+	margin-left:1em;
+	font-size:1em;
+	line-height:1.5em;
+}

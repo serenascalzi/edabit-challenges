@@ -122,6 +122,86 @@ export function Go(num) {
 
 // Find the Largest Number in an Array
 // Create a function that takes an array of numbers. Return the largest number in the array.
-function findLargestNum(arr) {
+export function findLargestNum(arr) {
 	return Math.max(...arr)
+}
+
+// Flip the Boolean
+// Create a function that reverses a boolean value and returns the string "boolean expected" if another variable type is given.
+export function reverse(bool) {
+	if (bool === true) {
+		return false
+	} else if (bool === false) {
+		return true
+	} else {
+		return 'boolean expected'
+	}
+}
+
+// Find the Smallest Number in an Array
+// Create a function that takes an array of numbers and returns the smallest number in the set.
+export function findSmallestNum(arr) {
+	return Math.min(...arr)	
+}
+
+// Shuffle the Name
+// Create a function that accepts a string (of a persons first and last name) and returns a string with the first and last name swapped.
+export function nameShuffle(str) {
+	return str.split(' ').reverse().join(' ')
+}
+
+// Reverse the Order of a String
+// Create a function that takes a string as its argument and returns the string in reversed order.
+export function reverse(str) {
+	return str.split('').reverse().join('')
+}
+
+// Check if String Ending Matches Second String
+// Create a function that takes two strings and returns true if the first argument ends with the second argument; otherewise return false.
+export function checkEnding(str1, str2) {
+	if (str1.endsWith(str2)) {
+		return true
+	} else {
+		return false
+	}
+}
+
+// Multiply by Length
+// Create a function to multiply all values in an array by the amount of values in that array.
+export function MultiplyByLength(arr) {
+	return arr.map(function(item) {
+		return item * arr.length
+	})
+}
+
+// Alphabet Soup
+// Create a function that takes a string and returns a string with its letters in alphabetical order.
+export function AlphabetSoup(str) {
+	return str.split('').sort().join('')
+}
+
+// Return the Four Letter Strings
+// Create a function that takes an array of strings. Return all words in the array that are exactly four letters.
+export function isFourLetters(arr) {
+	return arr.filter(function(item) {
+		return item.length == 4		
+	})
+}
+
+// Repeat the Same Item Multiple Times
+// Create a function that takes two arguments (item, times). The first argument (item) is the item that needs repeating while the second argument (times) is the number of times the item is to be repeated. Return the result in an array.
+export function repeat(item, times) {
+	let arr = []
+	for (i = 0; i < times; i++) {
+		arr.push(item)
+	}
+	return arr
+}
+
+// Eliminate Odd Numbers within an Array
+// Create a function that takes an array of numbers and returns only the even values.
+function noOdds(arr) {
+	return arr.filter(function(item) {
+		return item % 2 == 0
+	})
 }

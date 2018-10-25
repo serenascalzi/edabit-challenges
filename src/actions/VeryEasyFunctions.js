@@ -200,7 +200,7 @@ export function repeat(item, times) {
 
 // Eliminate Odd Numbers within an Array
 // Create a function that takes an array of numbers and returns only the even values.
-function noOdds(arr) {
+export function noOdds(arr) {
 	return arr.filter(function(item) {
 		return item % 2 == 0
 	})

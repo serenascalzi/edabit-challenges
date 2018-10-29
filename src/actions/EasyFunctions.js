@@ -9,6 +9,16 @@ export function minMax(arr) {
 	return array	
 }
 
+// Add up the Numbers from a Single Number
+// Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+function addUp(num) {
+	sum = 0
+	for (let i = 0; i <= num; i++) {
+		sum += i
+	}
+	return sum
+}
+
 // Is it Time for Milk and Cookies?
 // Christmas Eve is almost upon us, so naturally we need to prepare some milk and cookies for Santa! Create a function that accepts a Date object and returns true if it's Christmas Eve (December 24th) and false otherwise. Keep in mind JavaScript's Date month is 0 based, meaning December is the 11th month while January is 0.
 function timeForMilkAndCookies(date) {
@@ -41,4 +51,32 @@ function filterArray(arr) {
 		}
 	}
 	return array
+}
+
+// Repeating Letters
+// Create a function that takes a string and returns a string in which each character is repeated once.
+function doubleChar(str) {
+	let string = ''
+	for (let i = 0; i < str.length; i++) {
+		string += str.charAt(i) + str.charAt(i)
+	}
+	return string
+}
+
+// Add up the Numbers from a Single Number
+// Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+function addUp(num) {
+	sum = 0
+	for (let i = 0; i <= num; i++) {
+		sum += i
+	}
+	return sum
+}
+
+// Absolute Sum
+// Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
+function getAbsSum(arr) {
+	return arr.reduce(function(a, b) {
+		return Math.abs(a) + Math.abs(b)
+	}, 0)
 }

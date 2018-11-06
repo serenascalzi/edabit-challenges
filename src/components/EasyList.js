@@ -20,6 +20,7 @@ class EasyList extends Component {
 					<li>Repeating Letters</li>
 					<li>Absolute Sum</li>
 					<li>How Many Vowels?</li>
+					<li>Head-Body-Tail</li>
 				</ol>
 			</div>
 		)

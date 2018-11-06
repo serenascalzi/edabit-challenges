@@ -19,6 +19,7 @@ class EasyList extends Component {
 					<li>Filter out Strings from an Array</li>
 					<li>Repeating Letters</li>
 					<li>Absolute Sum</li>
+					<li>How Many Vowels?</li>
 				</ol>
 			</div>
 		)

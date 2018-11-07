@@ -21,6 +21,7 @@ class EasyList extends Component {
 					<li>Absolute Sum</li>
 					<li>How Many Vowels?</li>
 					<li>Head-Body-Tail</li>
+					<li>Remove Every Vowel from a String</li>
 				</ol>
 			</div>
 		)

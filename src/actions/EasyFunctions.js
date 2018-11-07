@@ -102,3 +102,15 @@ function verifySubstrs(mainStr, head, body, tail) {
 		return 'Incomplete.'
 	}
 }
+
+// Remove Every Vowel from a String
+// Create a function that takes a string and returns a new string with all vowels removed.
+function silenceTrump(str) {
+	arr = []
+	for (let i = 0; i < str.length; i++) {
+		if (str.charAt(i).toLowerCase() !== 'a' && str.charAt(i).toLowerCase() !== 'e' && str.charAt(i).toLowerCase() !== 'i' && str.charAt(i).toLowerCase() !== 'o' && str.charAt(i).toLowerCase() !== 'u') {
+			arr.push(str.charAt(i))
+		}
+	}
+	return arr.join('')
+}

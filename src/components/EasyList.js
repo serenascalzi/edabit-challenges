@@ -22,6 +22,7 @@ class EasyList extends Component {
 					<li>How Many Vowels?</li>
 					<li>Head-Body-Tail</li>
 					<li>Remove Every Vowel from a String</li>
+					<li>Pi to N Decimal Places</li>
 				</ol>
 			</div>
 		)

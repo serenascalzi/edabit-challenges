@@ -114,3 +114,9 @@ function silenceTrump(str) {
 	}
 	return arr.join('')
 }
+
+// Pi to N Decimal Places
+// Given a number n, write a function that returns PI to n decimal places.
+function myPi(n) {
+	return Number(Math.PI.toFixed(n))
+}

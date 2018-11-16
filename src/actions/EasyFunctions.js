@@ -12,7 +12,7 @@ export function minMax(arr) {
 // Add up the Numbers from a Single Number
 // Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 function addUp(num) {
-	sum = 0
+	let sum = 0
 	for (let i = 0; i <= num; i++) {
 		sum += i
 	}
@@ -32,7 +32,7 @@ function timeForMilkAndCookies(date) {
 // Count Instances of a Character in a String
 // Create a function that takes two strings as arguments and returns the number of times the first string is found in the second string.
 function charCount(myChar, str) {
-	count = 0
+	let count = 0
 	for (let i = 0; i < str.length; i++) {
 		if (myChar == str.charAt(i)) {
 			count += 1
@@ -66,7 +66,7 @@ function doubleChar(str) {
 // Add up the Numbers from a Single Number
 // Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 function addUp(num) {
-	sum = 0
+	let sum = 0
 	for (let i = 0; i <= num; i++) {
 		sum += i
 	}
@@ -84,7 +84,7 @@ function getAbsSum(arr) {
 // How Many Vowels?
 // Create a function that takes a string and returns the number (count) of vowels contained within it.
 function countVowels(str) {
-	count = 0
+	let count = 0
 	for (let i = 0; i < str.length; i++) {
 		if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
 			count += 1
@@ -106,7 +106,7 @@ function verifySubstrs(mainStr, head, body, tail) {
 // Remove Every Vowel from a String
 // Create a function that takes a string and returns a new string with all vowels removed.
 function silenceTrump(str) {
-	arr = []
+	let arr = []
 	for (let i = 0; i < str.length; i++) {
 		if (str.charAt(i).toLowerCase() !== 'a' && str.charAt(i).toLowerCase() !== 'e' && str.charAt(i).toLowerCase() !== 'i' && str.charAt(i).toLowerCase() !== 'o' && str.charAt(i).toLowerCase() !== 'u') {
 			arr.push(str.charAt(i))
@@ -119,4 +119,67 @@ function silenceTrump(str) {
 // Given a number n, write a function that returns PI to n decimal places.
 function myPi(n) {
 	return Number(Math.PI.toFixed(n))
+}
+
+// Sort Numbers in Ascending Order
+// Create a function that takes an array of numbers and returns a new array, sorted in ascending order (smallest to biggest). Sort numbers array in ascending order. If functions argument is null, an empty array or undefined, return an empty array. Return new array of sorted numbers.
+function sortNumsAscending(arr) {
+	let array = []
+	if (arr !== null) {
+		array = arr.sort(function(a, b) {
+			return a - b
+		})
+		return array
+	} else {
+		return array
+	}
+}
+
+// Phone Number Formatting
+// Create a function that takes an array of 10 numbers (between 0 and 9) and returns a string of those numbers formatted as a phone number (e.g. (555) 555-5555).
+function formatPhoneNumber(numbers) {
+	numbers.splice (0, 0, '(')
+	numbers.splice (4, 0, ')')
+	numbers.splice (5, 0, ' ')
+	numbers.splice(9, 0, '-')
+	return numbers.join('')
+}
+
+// Find the Largest Numbers in a Group of Arrays
+// Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
+function findLargestNums(arr) {
+	let array = []
+	for (let i = 0; i < arr.length; i++) {
+		array.push(Math.max(...arr[i]))
+	}
+	return array	
+}
+
+// Detect Browser from User Agent
+// You need to detect what browser is being used. Create a function that takes a string (browser identifier) and returns the browser name.
+function detectBrowser(userAgent) {
+	let string = ''
+	if (userAgent.includes('Chrome')) {
+		string = 'Google Chrome'
+	} else if (userAgent.includes('Firefox')) {
+		string = 'Mozilla Firefox'
+	} else {
+		string = 'Internet Explorer'
+	}
+	return string
+}
+
+// Find the Minimum, Maximum, Length and Average Values
+// Create a function that takes an array of numbers and returns the following statistics: Minimum Value, Maximum Value, Sequence Length, Average Value
+function minMaxLengthAverage(arr) {
+	let array = []
+	let arrLength = arr.length
+	let arrSum = arr.reduce(function(a, b) {
+		return a + b
+	})
+	array.push(Math.min(...arr))
+	array.push(Math.max(...arr))
+	array.push(arrLength)
+	array.push(arrSum / arrLength)
+	return array	
 }

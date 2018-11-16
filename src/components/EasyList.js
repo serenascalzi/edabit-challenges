@@ -23,6 +23,11 @@ class EasyList extends Component {
 					<li>Head-Body-Tail</li>
 					<li>Remove Every Vowel from a String</li>
 					<li>Pi to N Decimal Places</li>
+					<li>Sort Numbers in Ascending Order</li>
+					<li>Phone Number Formatting</li>
+					<li>Find the Largest Numbers in a Group of Arrays</li>
+					<li>Detect Browser from User Agent</li>
+					<li>Find the Minimum, Maximum, Length and Average Values</li>
 				</ol>
 			</div>
 		)

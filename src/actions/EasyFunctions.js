@@ -183,3 +183,19 @@ function minMaxLengthAverage(arr) {
 	array.push(arrSum / arrLength)
 	return array	
 }
+
+// Is the Average of All Elements a Whole Number?
+// Create a function that takes an array as an argument and returns true or false depending on whether the average of all elements in the array is a whole number or not.
+function isAvgWhole(arr) {
+	let avg = null
+	let arrLength = arr.length
+	let arrSum = arr.reduce(function(a, b) {
+		return a + b
+	})
+	avg = arrSum / arrLength
+	if (Number.isInteger(avg)) {
+		return true
+	} else {
+		return false
+	}	
+}

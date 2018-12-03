@@ -28,6 +28,7 @@ class EasyList extends Component {
 					<li>Find the Largest Numbers in a Group of Arrays</li>
 					<li>Detect Browser from User Agent</li>
 					<li>Find the Minimum, Maximum, Length and Average Values</li>
+					<li>Is the Average of All Elements a Whole Number?</li>
 				</ol>
 			</div>
 		)

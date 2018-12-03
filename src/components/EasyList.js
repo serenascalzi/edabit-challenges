@@ -32,6 +32,8 @@ class EasyList extends Component {
 					<li>Calculate the Mean</li>
 					<li>Return the Factorial</li>
 					<li>Return the Highest and Lowest Numbers</li>
+					<li></li>
+					<li>Sort Numbers in Descending Order</li>
 				</ol>
 			</div>
 		)

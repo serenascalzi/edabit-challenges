@@ -221,3 +221,13 @@ function factorial(int) {
 	}
 	return product
 }
+
+// Return the Highest and Lowest Numbers
+// Create a function that accepts a string of space separated numbers and returns the highest and lowest number (as a string).
+function highLow(str) {
+	let array = []
+	let arr = str.split(' ')
+	array.push(Math.max(...arr))
+	array.push(Math.min(...arr))
+	return array.join(' ')	
+}

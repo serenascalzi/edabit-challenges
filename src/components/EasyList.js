@@ -31,6 +31,7 @@ class EasyList extends Component {
 					<li>Is the Average of All Elements a Whole Number?</li>
 					<li>Calculate the Mean</li>
 					<li>Return the Factorial</li>
+					<li>Return the Highest and Lowest Numbers</li>
 				</ol>
 			</div>
 		)

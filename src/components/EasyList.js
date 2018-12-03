@@ -29,6 +29,7 @@ class EasyList extends Component {
 					<li>Detect Browser from User Agent</li>
 					<li>Find the Minimum, Maximum, Length and Average Values</li>
 					<li>Is the Average of All Elements a Whole Number?</li>
+					<li>Calculate the Mean</li>
 				</ol>
 			</div>
 		)

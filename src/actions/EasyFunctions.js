@@ -199,3 +199,15 @@ function isAvgWhole(arr) {
 		return false
 	}	
 }
+
+// Calculate the Mean
+// Create a function that takes an array of numbers and returns the mean value.
+function mean(arr) {
+	let avg = null
+	let arrLength = arr.length
+	let arrSum = arr.reduce(function(a, b) {
+		return a + b
+	})
+	avg = arrSum / arrLength
+	return Number(avg.toFixed(2))
+}

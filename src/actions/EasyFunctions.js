@@ -263,3 +263,23 @@ function XO(str) {
 		return false
 	}
 }
+
+//
+
+//
+
+// Equality of 3 Values
+// Write a function that takes three input values (a, b, c) and returns the number of equal values.
+function equal(a, b, c) {
+	let sum = 0
+	if (a == b || a == c) {
+		sum += 1
+	}
+	if (b == a || b == c) {
+		sum += 1
+	}
+	if (c == a || c == b) {
+		sum += 1
+	}
+	return sum
+}

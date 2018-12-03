@@ -244,3 +244,22 @@ function sortDecending(num) {
 	})
 	return Number(array.join(''))	
 }
+
+// X's and O's
+// Create a function that takes a string, checks if it has the same number of 'x's and 'o's and returns either true or false. Return a boolean value (true or false). The string can contain any character. When neither an x nor an o is in the string, return true.
+function XO(str) {
+	let sumX = 0
+	let sumO = 0
+	for (let i = 0; i < str.length; i++) {
+		if (str.charAt(i) == 'x' || str.charAt(i) == 'X') {
+			sumX += 1
+		} else if (str.charAt(i) == 'o' || str.charAt(i) == 'O') {
+			sumO += 1
+		} 
+	}
+	if (sumX == sumO) {
+		return true
+	} else {
+		return false
+	}
+}

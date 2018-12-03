@@ -34,6 +34,7 @@ class EasyList extends Component {
 					<li>Return the Highest and Lowest Numbers</li>
 					<li></li>
 					<li>Sort Numbers in Descending Order</li>
+					<li>X's and O's</li>
 				</ol>
 			</div>
 		)

@@ -211,3 +211,13 @@ function mean(arr) {
 	avg = arrSum / arrLength
 	return Number(avg.toFixed(2))
 }
+
+// Return the Factorial
+// Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.
+function factorial(int) {
+	let product = 1
+	for (let i = 1; i <= int; i++) {
+		product *= i
+	}
+	return product
+}

@@ -30,6 +30,7 @@ class EasyList extends Component {
 					<li>Find the Minimum, Maximum, Length and Average Values</li>
 					<li>Is the Average of All Elements a Whole Number?</li>
 					<li>Calculate the Mean</li>
+					<li>Return the Factorial</li>
 				</ol>
 			</div>
 		)

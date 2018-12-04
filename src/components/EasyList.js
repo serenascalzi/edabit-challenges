@@ -36,7 +36,7 @@ class EasyList extends Component {
 					<li>Sort Numbers in Descending Order</li>
 					<li>X's and O's</li>
 					<li>Find the Missing Number</li>
-					<li></li>
+					<li>Capitalize the Names</li>
 					<li>Equality of 3 Values</li>
 				</ol>
 			</div>

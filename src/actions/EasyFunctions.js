@@ -278,7 +278,14 @@ function missingNums(arr) {
 	}
 }
 
-//
+// Capitalize the Names
+// Create a function that takes an array of names and returns an array with the first letter capitalized.
+function capMe(arr) {
+	return arr.map(function(item) {
+		return item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()
+	})
+}
+
 
 // Equality of 3 Values
 // Write a function that takes three input values (a, b, c) and returns the number of equal values.

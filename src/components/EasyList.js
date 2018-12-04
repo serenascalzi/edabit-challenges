@@ -35,7 +35,7 @@ class EasyList extends Component {
 					<li>Remove Duplicates from Array</li>
 					<li>Sort Numbers in Descending Order</li>
 					<li>X's and O's</li>
-					<li></li>
+					<li>Find the Missing Number</li>
 					<li></li>
 					<li>Equality of 3 Values</li>
 				</ol>

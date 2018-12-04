@@ -268,7 +268,15 @@ function XO(str) {
 	}
 }
 
-//
+// Find the Missing Number
+// Create a function that takes an array of numbers between 1 and 10 (excluding one number) and returns the missing number.
+function missingNums(arr) {
+	for (let i = 1; i <= arr.length + 1; i++) {
+		if (arr.indexOf(i) === -1) {
+			return i
+		}
+	}
+}
 
 //
 

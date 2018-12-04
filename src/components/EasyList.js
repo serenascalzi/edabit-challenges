@@ -32,7 +32,7 @@ class EasyList extends Component {
 					<li>Calculate the Mean</li>
 					<li>Return the Factorial</li>
 					<li>Return the Highest and Lowest Numbers</li>
-					<li></li>
+					<li>Remove Duplicates from Array</li>
 					<li>Sort Numbers in Descending Order</li>
 					<li>X's and O's</li>
 					<li></li>
